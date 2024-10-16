@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    align-content: center;
+}
+.img{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 120px;
+    width: 120px;
+    border:1px groove black;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transition: 0.2s all;
+    /* margin:20px; */
+}
+.score{
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-evenly;
+}
+button{
+    background-color: green;
+    border:1.5px solid black;
+    height:30px;
+    cursor: pointer;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transition: 0.25s all;
+}
+button:active { 
+    transform: scale(0.94); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+} 
+.imageActive{
+    transform: scale(0.94); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+img:hover{
+    cursor: pointer;
+}
+.imageBorder{
+    border:2.5px solid red;
+}
